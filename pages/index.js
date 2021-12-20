@@ -22,7 +22,6 @@ export default function Home () {
             pages/index.js
           </code>
         </p>
-
       </main>
     </div>
   )
