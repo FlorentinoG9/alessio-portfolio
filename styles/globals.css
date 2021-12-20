@@ -1,0 +1,4 @@
+
+.bg-primary {
+  @apply bg-gradient-to-l from-orange-400 to-orange-700
+}
