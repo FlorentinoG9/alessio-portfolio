@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialIcons from '../socialIcons';
 
 const social = [
 	{
@@ -78,23 +79,14 @@ export default function Contact() {
 						natus perspiciatis voluptate!
 					</p>
 					<div className='flex space-x-5 justify-center'>
-						{social.map(({ name, href, icon }) => {
-							return (
-								<>
-									<a href={href} className='hover:text-slate-200'>
-										<span className='sr-only'>{name}</span>
-										<div className='h-5 w-5'>{icon}</div>
-									</a>
-								</>
-							);
-						})}
+						<SocialIcons classes='text-white hover:text-gray-300' />
 					</div>
 				</div>
 				<div className='w-2/3'>
-          <form >
-
-          </form>
-        </div>
+					<form>
+						
+					</form>
+				</div>
 			</div>
 		</div>
 	);
