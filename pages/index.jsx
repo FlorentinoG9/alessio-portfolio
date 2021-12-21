@@ -10,7 +10,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main>
+			<main className='max-w-7xl mx-auto'>
 				{sections.map((Section, idx) => {
 					return (
 						<section id={Section.name} key={idx}>
