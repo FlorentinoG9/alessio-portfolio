@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Hero from '../components/Hero';
 import sections from '../components/sections';
 
 export default function Home() {
