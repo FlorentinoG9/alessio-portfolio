@@ -12,7 +12,7 @@ export default function MenuItem({ href, name, disabled = false }) {
 						disabled
 							? 'text-gray-200'
 							: active
-							? 'bg-orange-300 text-black/80'
+							? 'bg-slate-300 text-black/80'
 							: 'text-gray-900'
 					} group flex rounded-md items-center w-full px-2 py-2 text-sm`}
 				>

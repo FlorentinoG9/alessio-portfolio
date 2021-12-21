@@ -11,9 +11,14 @@ const nav = [
 
 export default function Header() {
 	return (
-		<div className='relative bg-primary h-screen text-white px-10 '>
-			<header className='flex justify-between h-28 items-center  max-w-7xl mx-auto'>
-				<h2 className='font-bold text-2xl'>Alessio Muyanni</h2>
+		<div className='relative bg-primary h-screen text-white '>
+			<img
+				src='/hero-cover.jpg'
+				alt='hero-cover'
+				className='absolute w-full h-full object-cover'
+			/>
+			<header className='flex justify-between h-28 items-center  max-w-7xl mx-auto px-10'>
+				<h2 className='relative font-bold text-2xl'>Alessio Muyanni</h2>
 				<MenuNav>
 					{nav.map(({ name, href }, idx) => {
 						return (
@@ -24,7 +29,7 @@ export default function Header() {
 					})}
 				</MenuNav>
 			</header>
-			<div className='absolute bottom-0 max-w-7xl mx-auto'>
+			<div className='absolute bottom-0 max-w-7xl mx-auto px-10 -mb-5'>
 				<Hero />
 			</div>
 		</div>
