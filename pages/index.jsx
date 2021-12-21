@@ -9,6 +9,8 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
+			
+
 			<main className='max-w-7xl mx-auto'>
 				{sections.map((Section, idx) => {
 					return (

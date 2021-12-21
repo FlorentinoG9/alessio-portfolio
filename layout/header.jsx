@@ -1,7 +1,7 @@
 import React from 'react';
+import Heros from '../components/Heros';
 import MenuNav from './navigation';
 import Item from './navigation/Item';
-import Hero from '../components/Hero';
 
 const nav = [
 	{ name: 'Home', href: '#Hero' },
@@ -37,7 +37,7 @@ export default function Header() {
 				</MenuNav>
 			</header>
 			<div className='absolute bottom-0 max-w-7xl mx-auto px-10 -mb-5'>
-				<Hero />
+					<Heros />
 			</div>
 		</div>
 	);
