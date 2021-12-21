@@ -32,11 +32,7 @@ export default function Header() {
 				</nav>
 				<MenuNav>
 					{nav.map(({ name, href }, idx) => {
-						return (
-							<>
-								<Item key={idx} name={name} href={href} />
-							</>
-						);
+						return <Item key={idx} name={name} href={href} />;
 					})}
 				</MenuNav>
 			</header>

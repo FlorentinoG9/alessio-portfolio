@@ -6,9 +6,7 @@ export default function MenuNav({ children }) {
 	return (
 		<Menu as='div' className='relative md:hidden'>
 			<Menu.Button>
-				<button>
-					<MenuIcon className='rounded-full p-1 w-10 h-10' />
-				</button>
+				<MenuIcon className='rounded-full p-1 w-10 h-10' />
 			</Menu.Button>
 			<Transition
 				as={Fragment}
