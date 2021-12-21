@@ -6,7 +6,7 @@ export default function Hero() {
 			<p className='mb-5 w-80 md:w-2/3 text-3xl font-semibold'>
 				I call architecture
 			</p>
-			<h2 className='text-5xl md:text-9xl font-bold'>
+			<h2 className='text-4xl md:text-8xl lg:text-9xl font-bold'>
 				the frozen music
 			</h2>
 		</section>

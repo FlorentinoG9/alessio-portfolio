@@ -1,10 +1,10 @@
-import React, { useState, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
-import { XIcon, MenuIcon } from '@heroicons/react/solid';
+import { MenuIcon } from '@heroicons/react/solid';
 
 export default function MenuNav({ children }) {
 	return (
-		<Menu as='div' className='relative'>
+		<Menu as='div' className='relative md:hidden'>
 			<Menu.Button>
 				<button>
 					<MenuIcon className='rounded-full p-1 w-10 h-10' />

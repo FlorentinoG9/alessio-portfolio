@@ -17,8 +17,19 @@ export default function Header() {
 				alt='hero-cover'
 				className='absolute w-full h-full object-cover'
 			/>
-			<header className='flex justify-between h-28 items-center  max-w-7xl mx-auto px-10'>
+			<header className='flex justify-between h-28 items-center max-w-7xl mx-auto px-10'>
 				<h2 className='relative font-bold text-2xl'>Alessio Muyanni</h2>
+				<nav className='relative hidden md:block text-lg text-white bg-black/50 px-4 py-2 rounded-lg'>
+					<ul className=' flex space-x-3'>
+						{nav.map(({ name, href }, idx) => {
+							return (
+								<li key={idx}>
+									<a href={href}>{name}</a>
+								</li>
+							);
+						})}
+					</ul>
+				</nav>
 				<MenuNav>
 					{nav.map(({ name, href }, idx) => {
 						return (
