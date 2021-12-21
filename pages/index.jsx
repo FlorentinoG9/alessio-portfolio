@@ -13,7 +13,7 @@ export default function Home() {
 			<main className='max-w-7xl mx-auto'>
 				{sections.map((Section, idx) => {
 					return (
-						<section id={Section.name} key={idx}>
+						<section id={Section.name} key={idx} className='scroll-mt-24'>
 							<Section />
 						</section>
 					);
