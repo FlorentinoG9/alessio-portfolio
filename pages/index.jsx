@@ -10,12 +10,10 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<Hero />
-
 			<main>
 				{sections.map((Section, idx) => {
 					return (
-						<section key={idx}>
+						<section id={Section.name} key={idx}>
 							<Section />
 						</section>
 					);

@@ -3,15 +3,15 @@ import SocialIcons from "../components/socialIcons"
 const sectionNav = [
   {
     name: 'Home',
-    href: '#hero'
+    href: '#Hero'
   },
   {
     name: 'About Me',
-    href: '#about'
+    href: '#About'
   },
   {
     name: 'Contact',
-    href: '#contact'
+    href: '#Contact'
   },
 ]
 

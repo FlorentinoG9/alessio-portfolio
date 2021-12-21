@@ -2,14 +2,15 @@ import React from 'react';
 
 export default function Hero() {
 	return (
-		<section id='hero' className='max-w-md mx-auto text-white scroll-mt-24'>
+		<section id='Hero' className='max-w-md mx-auto text-white scroll-mt-64'>
 			<div>
-				<h2 className='text-xl font-bold'>My Portfolio</h2>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda,
-					exercitationem adipisci deleniti ad ipsa accusantium hic! Ex natus
-					culpa a!
+				<p className='mb-5 mx-w-96'>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+					sit ratione dolorem asperiores! Quos asperiores totam enim? Delectus
+					rerum fugiat sapiente, tempora voluptatem obcaecati illum incidunt
+					quisquam libero maxime reiciendis.
 				</p>
+				<h2 className='text-9xl font-bold text -mb-2'>My Portfolio</h2>
 			</div>
 		</section>
 	);
